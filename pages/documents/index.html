@@ -21,10 +21,10 @@
 
     <script>
         (function (i, s, o, g, r, a, m) {
-        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
-            (i[r].q = i[r].q || []).push(arguments)
-        }, i[r].l = 1 * new Date(); a = s.createElement(o),
-            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
         })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
         ga('create', 'UA-93009521-1', 'auto');
@@ -54,7 +54,10 @@
                         <a title="Reading list" href="https://studioxsoftware.github.io/pages/documents/">Documents</a>
                     </li>
                     <li class="site-nav-item">
-                        <a title="About" href="https://studioxsoftware.github.io/pages/about/">About</a>
+                        <a title="Module - Zero" href="https://studioxsoftware.github.io/pages/zero/">Module - Zero</a>
+                    </li>
+                    <li class="site-nav-item">
+                        <a href="https://studioxsoftware.github.io/pages/about/">About</a>
                     </li>
                 </ul>
             </div>
@@ -64,11 +67,90 @@
             <div class="container">
                 <article class="post-container">
                     <header class="post-header">
-                        <h1 class="post-title">Something</h1>
+                        <h1 class="post-title">Documents</h1>
 
                     </header>
                     <div class="post-content clearfix">
-                        <h2 id="about">Documents</h2>                      
+                        <h2>Overall</h2>
+                        <ul>
+                            <li><a href="https://studioxsoftware.github.io/pages/documents/">Introduction</a></li>
+                            <li><a href="https://studioxsoftware.github.io/pages/documents/">NLayer Architecture</a></li>
+                            <li><a href="https://studioxsoftware.github.io/pages/documents/">Module System</a></li>
+                            <li><a href="https://studioxsoftware.github.io/pages/documents/">Startup Configuration</a></li>
+                            <li><a href="https://studioxsoftware.github.io/pages/documents/">Multi Tenancy</a></li>
+                            <li><a href="https://studioxsoftware.github.io/pages/documents/">OWIN Integration</a></li>
+                        </ul>
+
+                        <h2>Common Structures</h2>
+                        <ul>
+                            <li><a href="https://studioxsoftware.github.io/pages/documents/">Dependency Injection</a></li>
+                            <li><a href="https://studioxsoftware.github.io/pages/documents/">Caching</a></li>
+                            <li><a href="https://studioxsoftware.github.io/pages/documents/">Logging</a></li>
+                            <li><a href="https://studioxsoftware.github.io/pages/documents/">Setting Management</a></li>
+                            <li><a href="https://studioxsoftware.github.io/pages/documents/">Object To Object Mapping (and AutoMapper Integration)</a></li>
+                            <li><a href="https://studioxsoftware.github.io/pages/documents/">Email Sending (and MailKit Integration)</a></li>
+                        </ul>
+
+                        <h2>Domain Layer</h2>
+                        <ul>
+                            <li><a href="https://studioxsoftware.github.io/pages/documents/">Entities</a></li>
+                            <li><a href="https://studioxsoftware.github.io/pages/documents/">Value Objects</a></li>
+                            <li><a href="https://studioxsoftware.github.io/pages/documents/">Repositories</a></li>
+                            <li><a href="https://studioxsoftware.github.io/pages/documents/">Domain Services</a></li>
+                            <li><a href="https://studioxsoftware.github.io/pages/documents/">Specifications</a></li>
+                            <li><a href="https://studioxsoftware.github.io/pages/documents/">Unit Of Work</a></li>
+                            <li><a href="https://studioxsoftware.github.io/pages/documents/">Domain Events (EventBus)</a></li>
+                            <li><a href="https://studioxsoftware.github.io/pages/documents/">Data Filter</a></li>
+                        </ul>
+
+                        <h2>Application Layer</h2>
+                        <ul>
+                            <li><a href="https://studioxsoftware.github.io/pages/documents/">Application Service</a></li>
+                            <li><a href="https://studioxsoftware.github.io/pages/documents/">Data Transfer Objects</a></li>
+                            <li><a href="https://studioxsoftware.github.io/pages/documents/">Validating	Data Transfer Objects</a></li>
+                            <li><a href="https://studioxsoftware.github.io/pages/documents/">Authorization</a></li>
+                            <li><a href="https://studioxsoftware.github.io/pages/documents/">Feature Management</a></li>
+                            <li><a href="https://studioxsoftware.github.io/pages/documents/">Audit Logging</a></li>
+                        </ul>
+
+                        <h2>Distributed Service Layer</h2>
+                        <ul>
+                            <li><a href="https://studioxsoftware.github.io/pages/documents/">Web API Controllers</a></li>
+                            <li><a href="https://studioxsoftware.github.io/pages/documents/">Dynamic Web API Laye</a></li>
+                            <li><a href="https://studioxsoftware.github.io/pages/documents/">Swagger UI Integration</a></li>
+                        </ul>
+
+                        <h2>Presentation Layer</h2>
+                        <ul>
+                            <li><a href="https://studioxsoftware.github.io/pages/documents/">MVC Controllers</a></li>
+                            <li><a href="https://studioxsoftware.github.io/pages/documents/">MVC Views</a></li>
+                            <li><a href="https://studioxsoftware.github.io/pages/documents/">Handling Exceptions</a></li>
+                            <li><a href="https://studioxsoftware.github.io/pages/documents/">ASP.NET Core Integration</a></li>
+                            <li><a href="https://studioxsoftware.github.io/pages/documents/">Localization</a></li>
+                            <li><a href="https://studioxsoftware.github.io/pages/documents/">Navigation</a></li>
+                            <li><a href="https://studioxsoftware.github.io/pages/documents/">Embedded Resources</a></li>
+                            <li><a href="https://studioxsoftware.github.io/pages/documents/">Javascript API</a></li>
+                            <li><a href="https://studioxsoftware.github.io/pages/documents/">CSRF/XSRF Protection</a></li>
+                        </ul>
+                        
+                        <h2>Background Service</h2>
+                        <ul>
+                            <li><a href="https://studioxsoftware.github.io/pages/documents/">Background Jobs and Workers</a></li>
+                            <li><a href="https://studioxsoftware.github.io/pages/documents/">Hangfire Integration</a></li>
+                            <li><a href="https://studioxsoftware.github.io/pages/documents/">Quartz Integration</a></li>
+                        </ul>
+
+                        <h2>Real Time Services</h2>
+                        <ul>
+                            <li><a href="https://studioxsoftware.github.io/pages/documents/">Notification System</a></li>
+                            <li><a href="https://studioxsoftware.github.io/pages/documents/">SignalR Integration</a></li>
+                        </ul>
+
+                        <h2>Real Time Services</h2>
+                        <ul>
+                            <li><a href="https://studioxsoftware.github.io/pages/documents/">Notification</a></li>
+                            <li><a href="https://studioxsoftware.github.io/pages/documents/">SignalR Integration</a></li>
+                        </ul>
                     </div>
                 </article>
             </div>
