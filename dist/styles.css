@@ -180,6 +180,7 @@ table tr { border-bottom: 1px dotted #aeadad; }
 #nprogress .spinner-icon { border-top-color: #73ae20; border-left-color: #73ae20; }
 @media only screen and (max-width: 800px) {
  .post-stub-tag { display: none; }
+ .post-content-50 {width: 50%; width: 50%; display: table; float: left; margin-right: 10px;}
 }
 @media only screen and (max-width: 600px) {
  h1, h2 { margin-bottom: 20px; }
