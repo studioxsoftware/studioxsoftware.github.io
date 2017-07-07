@@ -1,4 +1,4 @@
-# StudioX Documemtation
+# StudioX Documentation
 
 Implements abstract concepts of StudioX  framework:
 
