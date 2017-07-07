@@ -1,8 +1,4 @@
-# StudioX Boilerplate
-
-## What is 'module zero'?
-
-This is an <a href="/" target="_blank">StudioX Boilerplate</a> module integrated to Microsoft <a href="https://docs.microsoft.com/en-us/aspnet/identity/overview/getting-started/introduction-to-aspnet-identity" target="_blank">ASP.NET Identity</a>.
+# StudioX Documemtation
 
 Implements abstract concepts of StudioX  framework:
 
