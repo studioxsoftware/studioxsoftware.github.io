@@ -178,7 +178,7 @@ table tr { border-bottom: 1px dotted #aeadad; }
 #nprogress .bar { background: #73ae20; }
 #nprogress .peg { box-shadow: 0 0 10px #73ae20, 0 0 5px #73ae20; }
 #nprogress .spinner-icon { border-top-color: #73ae20; border-left-color: #73ae20; }
-.col-6 {width: 49%; float: left;}
+.col-6 {width: 48%; float: left;margin-right:10px;}
 @media only screen and (max-width: 800px) {
  .post-stub-tag { display: none; }
   [class*="col-"] { width: 100%;}  
