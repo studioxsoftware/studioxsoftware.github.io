@@ -16,3 +16,6 @@ Also adds common enterprise application features:
 * **<a href="/pages/documents/Zero/Organization-Units" target="_blank">Organization Units</a>** management.
 * **<a href="/pages/documents/Zero/Language-Management" target="_blank">Language and localization</a> text** management.
 * **<a href="/pages/documents/Zero/Identity-Server" target="_blank">Identity Server 4</a>** integration.
+
+#### Plan
+![](img/plan.png)
